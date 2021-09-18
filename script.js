@@ -7,9 +7,9 @@ import { state, searchForPlace } from "./model.js";
 const bookmarkClick = function (el) {
 	if (!el) return;
 
-	const positionGlobal = [...document.querySelectorAll(".cityWraper")].indexOf(
-		el.closest(".cityWraper")
-	);
+	const positionGlobal = [
+		...document.querySelectorAll(".cityWraper[data-temp='false']"),
+	].indexOf(el.closest(".cityWraper"));
 
 	if (el.classList.contains("active")) {
 		el.classList.remove("active");

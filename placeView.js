@@ -34,7 +34,7 @@ class PlacesView {
 
 	_addToParentObj() {
 		let text = `
-            <div class="cityWraper" data-city="${this._curName}" data-lat="${this._currentObj.lat}" data-lon="${this._currentObj.lon}">
+            <div class="cityWraper" data-temp="false" data-city="${this._curName}" data-lat="${this._currentObj.lat}" data-lon="${this._currentObj.lon}">
                 <img src="./Imgs/bookmark 3.svg" alt="bookmark" class="bookmarkIcon" >    
                 <img src="./Imgs/close.svg" alt="Close icon" class="closeIcon">
                 <div class="cityContainer" data-city="${this._curName}">
