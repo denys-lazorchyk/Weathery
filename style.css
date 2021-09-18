@@ -623,19 +623,20 @@ form {
 		margin: 10px 5px;
 	}
 
-	.body {
-		height: 100vh !important;
+	.cityWraper.active,
+	.cityWraper.active .cityContainer {
+		height: 90vh;
 	}
 
 	.cityContainer,
 	.cityWraper,
 	.single-item {
-		height: 90vh;
+		height: 970px;
 	}
 
 	.weather-data,
 	.cities {
-		height: 95vh;
+		height: 1030px;
 	}
 
 	.weather-details {
