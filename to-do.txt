@@ -1,0 +1,22 @@
+DONE:
+create module that does rendering those weather reports
+background based on weather
+preloader
+save bookmarks to local storage
+check is searched city is in bookmarks
+create a module that does moving for you
+handle cnage of some params
+ability to add/remove new results
+handle errors
+render citites on click from bookmarks
+adaptive interface
+block moving of places if <= 2
+
+OUTDATED:
+small search bar that extends to biger window when you recieve result
+switch of language
+render citites from bookmarks
+switch unit systems
+
+TO DO:
+control with arrows
