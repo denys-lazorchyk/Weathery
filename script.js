@@ -2,7 +2,7 @@ import PlacesView from "./placeView.js";
 import PageNavigationView from "./pageNavigationView.js";
 import BookmarksView from "./bookmarksView.js";
 import InputView from "./inputView.js";
-import { state, searchForPlace, checkIfAlreadyExist } from "./model.js";
+import { state, searchForPlace } from "./model.js";
 
 const bookmarkClick = function (el) {
 	if (!el) return;

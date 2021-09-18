@@ -35,7 +35,7 @@ const findWeather = async function (lon, lat) {
 	} catch (err) {}
 };
 
-export const checkIfAlreadyExist = function (lon, lat) {
+const checkIfAlreadyExist = function (lon, lat) {
 	return state.places.every((el) => el.lat !== lat && el.lon !== lon);
 };
 
