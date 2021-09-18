@@ -73,10 +73,11 @@ export const searchForPlace = async function (data = undefined) {
 			throw Error("You aready requested this city, dumb-ass!", { status: 20 });
 		}
 	} catch (err) {
-		if (err === 404 || err === 400) {
-			throw err;
-		} else {
-			throw err;
-		}
+		// if (err === 404 || err === 400) {
+		// 	throw err;
+		// } else {
+		// 	throw err;
+		// }
+		throw err;
 	}
 };

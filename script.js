@@ -64,8 +64,8 @@ const searchHandler = async function (obj = undefined) {
 			PlacesView.addPlaceholder(
 				"Sorry, couldn't find you place, try one more time)"
 			);
-			PageNavigationView.updateSlides();
 		}
+		PageNavigationView.updateSlides();
 	}
 };
 
